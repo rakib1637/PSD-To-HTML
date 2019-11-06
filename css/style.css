@@ -1,0 +1,463 @@
+/* 
+Last Updated: 2019-02-18
+Author: Hridoy Roy - http://richclarkdesign.com 
+Twitter: 
+*/
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,700,800');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align: bottom;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* Header Section Start */
+.section-padding{
+    padding: 100px 0px;
+}
+header{
+    background: #222222;
+}
+.flex-menu{
+    display: flex;
+    height: 60px;
+}
+.logo a{
+    display: flex;
+    color: #fff;
+}
+.logo p{
+    padding: 0 20px;
+    font-size: 20px;
+}
+.logo p strong{
+    font-weight: bold;
+}
+.logo span{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+.login-search{
+    display: flex;
+    text-align: center;
+}
+.login-search a{
+    color: #fff;
+    border-left: 2px solid #555555;
+    border-right: 2px solid #555555;
+    padding: 0px 12px;
+}
+.login-search a:first-child{
+    border-right: 0;
+}
+.login-search a span{
+    font-weight: 700;
+}
+.login-search .icon{
+    width: 70px;
+    font-size: 25px;
+    padding: 5px;      
+}
+.single-menu {
+     justify-content: right;
+     padding: 3% 0 0 0;
+}
+.single-level-menu{
+    margin-left: auto;
+}
+.single-menu ul{
+    display: flex;
+}
+.single-menu ul li{
+    padding: 0px 15px;
+    
+}
+.single-menu ul li:last-child{
+    padding: 0;
+}
+.single-menu ul li a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    flex: 1;
+}
+.single-menu ul li a:hover{
+    color: #ffcc00;
+    transition-duration: .5S
+}
+/* Header Section Start */
+.container{
+    margin: 0px 50px;
+}
+/* Banner Section Start */
+section.banner{
+   
+
+    background-image: url(../img/banner.png);
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+
+    
+    
+}
+/* .searching_cars_section{
+   
+} */
+.customer_section {
+    background: #f8f4da;
+}
+.banner {
+    background-color: #f8f4da;
+}
+.banner_section_1 p{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.banner_section_1 span{
+    color: #ffcc00;
+    font-size: 35px;
+}
+.banner_name{
+    text-align: center;
+}
+.banner_name > h1{
+font-size: 120px;
+word-spacing: 15px;
+letter-spacing: -8px;
+}
+.banner_name p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.banner_button{
+    text-align: center;
+    padding: 20px;
+    
+}
+.banner_button > a{
+    border: 1px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+}
+.banner_num p{
+    justify-content: 
+}
+section .main_banner_section{
+    
+}
+/* Banner Section End */
+/* car finding Section Start */
+section.searching_cars_section{
+    background-color: #191919;
+    padding: 0% 5%;
+}
+div.searching_bg{
+    display: flex;
+    padding: 60px 0;
+}
+div.searching_bg div{
+    flex: 1;
+}
+.searching_bg select{
+    padding: 10px 20px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+   border: none;
+
+
+}
+.searching_bg select{
+
+}
+.searching_bg input{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    width: 80%;
+    margin-top:26px;
+    font-size: 15px;
+    border: none;
+}
+.searching_bg .search_price{
+    margin-left: auto;
+}
+.searching_bg p{
+    color: white;
+    padding: 0 0 10px 5px;
+    font-weight: 900;
+}
+div.search_button input{
+    background-color: #ffcb00;
+    cursor: pointer;
+}
+div.search_button{
+    display: flex;
+    margin-left: auto;
+   align-items: flex-end;
+}
+/* car finding Section End */
+/* Customer Section CSS Start */
+section.cusomer_section{
+     background-color:#f8f4dal; 
+}
+.main_customar_content_section{
+    padding: 5% 5%;
+    text-align: center;
+    background-color: #f8f4da;
+}
+.top_contenr > p{
+    color: #333333;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding: 2% 0;
+}
+.top_contenr h1{
+    font-size: 35px;
+    font-weight: lighter;
+    padding: 0 0 5% 0;
+}
+.content{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.content > div{
+    padding: 2% 5%;
+    background-color: white;
+    margin: 2% 1% 10% 1%;
+    width: 20%;
+}
+.content > div #icon{
+    color: #ffcf00;
+    padding: 20px;
+}
+.content > div #icon{
+    color: white;
+
+}
+.content > div > h2{
+    font-weight: 550;
+    font-size: 20px;
+    word-spacing: 10px;
+
+}
+.content > div p{
+    color: #999999;
+    font-size: 12px;
+    padding: 10px 0;   
+}
+.content div:hover{
+    background-color: #ffcf00;
+    transition-duration: 1s;
+    color: white;
+    cursor: pointer;
+}
+/* Customer Section CSS End */
+/* <!-- About US section Start --> */
+div.main_content{
+    display: flex;
+    padding: 5% 5%;
+}
+.main_content div{
+}
+.about_content{
+    width: 33%;
+    padding: 5%;
+}.about_content p.top_p{
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 2% 0;
+    color: #333333;
+}
+.about_content > h1{
+    font-size: 40px;
+    font-weight: lighter;
+    color: #333333;
+}
+.about_content .bottom_p{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+    color: #777777;
+    line-height: 25px;
+    padding: 3% 0;
+}
+#list_icon{
+    color: #ffcf00;
+}
+.about_content ul li {
+    font-weight: 600;
+    list-style: none;
+    font-size: 15px;
+    line-height: 30px;
+}
+.about_content .owner{
+    color: #ffcf00;
+    font-size: 15px;
+}
+.about_content > img{
+    position: relative;
+    margin: 2% 0 2% -10%;
+}
+/* <!-- About US section End --> */
+
+
+
+
+/* Banner Section By Iqbal */
+.banner_section_1{
+    color: #fff;
+}
+.banner_section_2{
+    color: #fff;
+}
+.banner_section_1 {
+    color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+section .main_banner_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.border-bottom-banner {
+    background: #ddd;
+    border: 2px solid red;
+    padding: 2px 36px;
+    width: 30px;
+    margin-top: 16px;
+}
+/* Review Section Start  */
+.main_review_section{
+    background-image: url(../img/review_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_text p{
+    font-size: 14px;
+}
+.review_header_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_text{
+    width: 50%;
+}
+.review_header_section{
+    display: flex;
+}
+.customar_review_section{
+    display: flex;
+    justify-content: center;
+}
+.customar_review{
+    display: flex;
+}
+.customar_review 
+/* Review Section end */
+/* map Section Start */
+
+/* map Section End */
